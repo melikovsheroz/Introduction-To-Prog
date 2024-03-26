@@ -1,3 +1,27 @@
+items_in_store = {
+    'vegetables': [
+        {'name': 'Carrot', 'quantity': 100, 'price': 0.75},
+        {'name': 'Tomato', 'quantity': 80, 'price': 1.00},
+        {'name': 'Broccoli', 'quantity': 50, 'price': 1.50}
+    ],
+    'fruits': [
+        {'name': 'Apple', 'quantity': 120, 'price': 0.80},
+        {'name': 'Banana', 'quantity': 150, 'price': 0.60},
+        {'name': 'Orange', 'quantity': 100, 'price': 0.75}
+    ],
+    'dairy_products': [
+        {'name': 'Milk', 'quantity': 50, 'price': 2.00},
+        {'name': 'Cheese', 'quantity': 40, 'price': 3.50},
+        {'name': 'Yogurt', 'quantity': 60, 'price': 1.20}
+    ],
+    'meat_and_poultry': [
+        {'name': 'Chicken', 'quantity': 30, 'price': 5.00},
+        {'name': 'Beef', 'quantity': 20, 'price': 7.50},
+        {'name': 'Pork', 'quantity': 25, 'price': 6.50}
+    ]
+}
+
+
 def main():
     print("Welcome to the Shopping Tool!")
     print("Please select a category:")
